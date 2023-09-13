@@ -1,14 +1,9 @@
 # modal-vscode-reproducer README
 
-⚠️ Work-in-progress starter code for custom notebook renderers in VS Code. Expect this to change as notebooks matures. ⚠️
+Reproducer to show issues with showing popovers a vscode notebook renderer.
 
-This starter includes:
-
- - 🖥️ TypeScript code to create a simple `NotebookOutputRenderer`
- - 📦 A Webpack build for renderer client code
- - ⚡ Support for hot module reloading and safe boilerplate
- - 🎨 CSS modules support
-
+Here is what it looks like when the extension is running -
+![Popover Reproducer](screenshot/popover.png)
 ## Running this Sample
 
  1. `code-insiders modal-vscode-reproducer`: Open the folder in VS Code Insiders
